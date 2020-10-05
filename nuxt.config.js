@@ -31,7 +31,8 @@ export default {
     // Doc: https://github.com/nuxt-community/dotenv-module
     "@nuxtjs/dotenv",
     // Doc: https://github.com/nuxt-community/sitemap-module
-    "@nuxtjs/sitemap"
+    "@nuxtjs/sitemap",
+    "@nuxtjs/router"
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -46,7 +47,7 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
   sitemap: {
-    hostname: "https://spalopia.com",
+    hostname: "https://test.com",
     path: "/sitemap.xml",
     exclude: [],
     routes: [],
